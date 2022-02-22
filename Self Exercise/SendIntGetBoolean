@@ -1,0 +1,17 @@
+package week1.day2;
+
+public class SendIntGetBoolean {
+
+	private int a = 1, b=2;
+	private String c = "Welcome!";
+	public static void main(String[] args) {
+
+		SendIntGetBoolean object = new SendIntGetBoolean();
+		GetIntReturnBoolean value = new GetIntReturnBoolean();
+		value.getIntReturnBoolean(object.a, object.b);
+
+		System.out.println("Given numbers "+object.a+" equals "+object.b+" is "+value.result);
+		
+	}
+
+}
